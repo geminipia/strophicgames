@@ -65,3 +65,5 @@ footer.site a{color:var(--sub)}
 .slider .dots button.on{background:#fff}
 @media (prefers-reduced-motion:reduce){.slider .slide{transition:none}}
 .slider figcaption{max-width:calc(100% - 24px)}
+
+.game h3 .one{white-space:nowrap;font-size:1.2rem}.game h3 small{font-size:.95rem;color:var(--sub);font-family:inherit}
