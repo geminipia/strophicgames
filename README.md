@@ -9,6 +9,7 @@ GitHub Pages 로 올리는 정적 사이트입니다. 빌드 과정이 없습니
 | `/inky-bakery/delete-data.html` | 먹물 탐정의 베이커리 클리커 계정·데이터 삭제 안내 (Play Console 의 "데이터 삭제 URL") |
 | `/cat-detective/privacy.html`, `/cat-detective/delete-data.html` | 먹물 탐정의 숨은그림찾기 : Hidden Objects |
 | `/catapult-idle/privacy.html`, `/catapult-idle/delete-data.html` | 투석기 키우기 (Catapult Idle: Siege) (Play Console 의 개인정보처리방침 URL / 데이터 삭제 URL) |
+| `/drone-storm-defense/privacy.html`, `/drone-storm-defense/delete-data.html` | 드론 스톰 디펜스 (Play Console 의 개인정보처리방침 URL / 데이터 삭제 URL) |
 | `/privacy.html` | 예전 주소 유지용(먹물 탐정의 숨은그림찾기 : Hidden Objects 방침과 같은 내용) |
 
 ## 올리는 방법
