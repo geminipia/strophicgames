@@ -4,7 +4,7 @@ GitHub Pages 로 올리는 정적 사이트입니다. 빌드 과정이 없습니
 
 | 주소 | 내용 |
 |---|---|
-| `/` | 두 게임 목록 |
+| `/` | 게임 목록 (카드 11개) |
 | `/inky-bakery/privacy.html` | 먹물 탐정의 베이커리 클리커 개인정보처리방침 |
 | `/inky-bakery/delete-data.html` | 먹물 탐정의 베이커리 클리커 계정·데이터 삭제 안내 (Play Console 의 "데이터 삭제 URL") |
 | `/cat-detective/privacy.html`, `/cat-detective/delete-data.html` | 먹물 탐정의 숨은그림찾기 (Mukmul the Black Cat: Hidden Objects) |
