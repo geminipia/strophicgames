@@ -3,31 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>계정·데이터 삭제 안내 — 화성 탈출기 (Mars Escape)</title>
-<meta name="description" content="strophicgames — 화성 탈출기 (Mars Escape) 계정·데이터 삭제 안내">
-<link rel="icon" href="../images/mars-icon-s.webp">
-<link rel="stylesheet" href="../site.css">
+<title>화성 탈출기 계정·데이터 삭제 안내 · Strophic Games</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.75 system-ui, -apple-system, "Noto Sans KR", sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 18px 60px; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2rem; border-bottom: 1px solid #8884; padding-bottom: .3rem; }
+  .meta { color: #888; font-size: .9rem; } li { margin: .3rem 0; }
+</style>
 </head>
 <body>
-<div class="top"><div class="in">
-  <a class="brand" href="../"><img src="../images/mukmul-icon.webp" alt="">strophicgames</a>
-  <nav><a href="../#games">게임</a><a href="../#about">소개</a><a href="mailto:strophicgames@gmail.com">문의</a></nav>
-</div></div>
-<main class="doc"><p class="crumb"><a href="../">홈</a> › 화성 탈출기 (Mars Escape)</p><div class="card">
-<h1>계정·데이터 삭제 안내 — 화성 탈출기 (Mars Escape)</h1>
-<p>화성 탈출기 (Mars Escape)에서 구글 계정을 연결해 클라우드에 저장한 경우, 아래 방법으로 계정 정보와 저장 데이터를 삭제할 수 있습니다.</p>
-<h2>방법 1. 앱에서 직접 삭제 (가장 빠름)</h2>
-<ol><li>앱을 열고 오른쪽 위의 <b>설정</b>(톱니바퀴)을 엽니다.</li><li><b>계정 · 클라우드</b> 항목에서 <b>클라우드 데이터·계정 삭제</b>를 누릅니다.</li><li>확인 창에서 <b>삭제</b>를 누르면 클라우드에 저장된 진행 상황과 구글 연결 계정 정보가 즉시 삭제됩니다. 삭제 후에는 되돌릴 수 없습니다.</li></ol>
-<h2>방법 2. 이메일로 요청 (앱을 지웠거나 기기가 없는 경우)</h2>
-<p><a href="mailto:strophicgames@gmail.com">strophicgames@gmail.com</a>으로 <b>구글 계정 이메일 주소</b>와 앱 이름(화성 탈출기 · Mars Escape)을 적어 보내 주세요. 본인 확인 후 영업일 기준 7일 이내에 삭제하고 회신합니다.</p>
+<h1>화성 탈출기 계정·데이터 삭제 안내</h1>
+<p class="meta">개발자: Strophic Games · 앱 ID: com.strophic.marsescape</p>
+
 <h2>삭제되는 정보</h2>
-<table><tr><th>정보</th><th>처리</th></tr>
-<tr><td>구글 계정 이메일, 계정 고유 ID(Firebase Authentication)</td><td>삭제</td></tr>
-<tr><td>클라우드에 저장된 게임 진행 기록(Cloud Firestore)</td><td>삭제</td></tr>
-<tr><td>이 기기에 저장된 게임 데이터</td><td>설정의 "데이터 초기화" 또는 앱 삭제로 제거 (클라우드 삭제와는 별개)</td></tr>
-<tr><td>광고 관련 정보</td><td>Google 정책에 따름 (<a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>)</td></tr></table>
+<ul>
+<li>구글 로그인을 통해 연결된 계정 정보(이메일, 이름, 고유 ID)</li>
+<li>클라우드(Firebase Cloud Firestore)에 저장된 게임 진행 데이터</li>
+</ul>
+<p>기기에 저장된 진행 데이터는 앱을 삭제하면 함께 삭제됩니다.</p>
+
+<h2>방법 1. 앱 안에서 삭제 (권장)</h2>
+<ol>
+<li>앱을 실행하고 오른쪽 위 <b>설정</b>을 누릅니다.</li>
+<li><b>구글 계정</b> 항목에서 로그인 상태를 확인합니다.</li>
+<li><b>계정·데이터 삭제</b> 버튼을 누르고 확인창에서 계속을 선택합니다.</li>
+<li>클라우드 저장 데이터와 계정 연결이 즉시 삭제됩니다. 이 작업은 되돌릴 수 없습니다.</li>
+</ol>
+
+<h2>방법 2. 이메일로 삭제 요청 (앱을 쓸 수 없는 경우)</h2>
+<ol>
+<li><b><a href="mailto:strophicgames@gmail.com">strophicgames@gmail.com</a></b> 로 메일을 보냅니다.</li>
+<li>제목: "화성 탈출기 데이터 삭제 요청", 본문에 <b>로그인에 사용한 구글 계정 이메일</b>을 적고 해당 계정에서 보내 주세요(본인 확인).</li>
+<li>확인 후 영업일 기준 7일 이내에 삭제하고 회신합니다.</li>
+</ol>
+
+<h2>보관되는 정보</h2>
+<p>삭제 후에는 법령상 보관이 필요한 정보를 제외하고 개발자가 보관하는 이용자 정보는 없습니다. 광고 식별자는 기기의 <b>설정 → Google → 광고</b>에서 직접 재설정하거나 삭제할 수 있으며, Google AdMob이 처리하는 광고 데이터는 Google 정책에 따릅니다.</p>
+
 <p><a href="privacy.html">개인정보처리방침 보기</a></p>
-</div></main>
-<footer class="site"><span>© strophicgames</span><span>문의 <a href="mailto:strophicgames@gmail.com">strophicgames@gmail.com</a></span></footer>
 </body>
 </html>
