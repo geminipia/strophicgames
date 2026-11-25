@@ -24,8 +24,6 @@ a{color:var(--brand)} img{max-width:100%;display:block}
 .intro h1{font-family:Jua,sans-serif;font-weight:400;font-size:clamp(2.1rem,5.4vw,3.5rem);line-height:1.15;margin:.25em 0 0;text-wrap:balance}
 .intro h1 em{font-style:normal;color:var(--brand)}
 .intro .say p{color:var(--sub);font-size:1.05rem;margin:0 0 1.1em}
-.facts{display:flex;flex-wrap:wrap;gap:8px 22px;list-style:none;padding:0;margin:0 0 1.2em;color:var(--sub);font-size:.92rem}
-.facts b{font-family:Jua,sans-serif;font-weight:400;font-size:1.35rem;color:var(--ink);margin-right:.25em}
 
 /* 주요 장면 캐러셀 */
 .reel{position:relative;border-radius:24px;overflow:hidden;border:3px solid #5b3a29;box-shadow:var(--shadow);background:#2b1d14}
