@@ -85,6 +85,12 @@ footer.site a{color:var(--sub)}
 .doc .meta{color:var(--sub);font-size:.9rem}
 .doc li{margin:.3em 0} .doc ul,.doc ol{padding-left:1.3em}
 .doc table{border-collapse:collapse;width:100%;font-size:.93rem;margin:.6em 0} .doc th,.doc td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top} .doc th{background:var(--bg2)}
+.doc table{table-layout:fixed} .doc th,.doc td{overflow-wrap:anywhere}
+.lang-switch{display:flex;gap:8px;margin:0 0 14px}
+.lang-switch a{padding:6px 16px;border:2px solid #5b3a29;border-radius:999px;text-decoration:none;font-weight:700;color:inherit;font-size:.95rem}
+.lang-switch a.on{background:var(--brand2);color:#3b2415}
+.lang-block + .lang-block{margin-top:44px;padding-top:30px;border-top:3px dashed var(--line)}
+html.js .lang-block + .lang-block{margin-top:0;padding-top:0;border-top:0}
 .crumb{font-size:.9rem;margin:0 0 6px} .crumb a{color:var(--sub);text-decoration:none} .crumb a:hover{color:var(--brand)}
 @media (max-width:760px){
 .top nav{gap:12px}

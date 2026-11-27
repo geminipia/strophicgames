@@ -10,14 +10,21 @@ GitHub Pages 로 올리는 정적 사이트입니다. 빌드 과정이 없습니
 | `/cat-detective/privacy.html`, `/cat-detective/delete-data.html` | 먹물 탐정의 숨은그림찾기 (Mukmul the Black Cat: Hidden Objects) |
 | `/catapult-idle/privacy.html`, `/catapult-idle/delete-data.html` | 투석기 키우기 (Catapult Idle: Siege) (Play Console 의 개인정보처리방침 URL / 데이터 삭제 URL) |
 | `/drone-storm-defense/privacy.html`, `/drone-storm-defense/delete-data.html` | 드론 스톰 디펜스 (Play Console 의 개인정보처리방침 URL / 데이터 삭제 URL) |
-| `/silver-route/privacy.html`, `/silver-route/delete-data.html` | 은빛 항로 (The Silver Route) — 투석기 키우기 방침을 복사한 초안 |
-| `/mukmul-match/privacy.html`, `/mukmul-match/delete-data.html` | 먹물 사천성 (Mukmul Match) — 투석기 키우기 방침을 복사한 초안 |
-| `/storm-arrow/privacy.html`, `/storm-arrow/delete-data.html` | 스톰 애로우 (Storm Arrow) — 투석기 키우기 방침을 복사한 초안 |
-| `/drone-idle/privacy.html`, `/drone-idle/delete-data.html` | 드론 키우기 (The Age of Drone Ops) — 투석기 키우기 방침을 복사한 초안 |
-| `/mars-escape/privacy.html`, `/mars-escape/delete-data.html` | 화성 탈출기 (Mars Escape) — 투석기 키우기 방침을 복사한 초안 |
-| `/fireworks-idle/privacy.html`, `/fireworks-idle/delete-data.html` | 폭죽 키우기 (Fireworks Idle) — 투석기 키우기 방침을 복사한 초안 |
-| `/fantasy-arena/privacy.html`, `/fantasy-arena/delete-data.html` | 판타지 아레나 (Fantasy Arena) — 투석기 키우기 방침을 복사한 초안 |
+| `/silver-route/privacy.html`, `/silver-route/delete-data.html` | 은빛 항로 (The Silver Route) |
+| `/mukmul-match/privacy.html`, `/mukmul-match/delete-data.html` | 먹물 사천성 (Mukmul Match) |
+| `/storm-arrow/privacy.html`, `/storm-arrow/delete-data.html` | 스톰 애로우 (Storm Arrow) |
+| `/drone-idle/privacy.html`, `/drone-idle/delete-data.html` | 드론 키우기 (The Age of Drone Ops) |
+| `/mars-escape/privacy.html`, `/mars-escape/delete-data.html` | 화성 탈출기 (Mars Escape) |
+| `/fireworks-idle/privacy.html`, `/fireworks-idle/delete-data.html` | 폭죽 키우기 (Fireworks Idle) |
+| `/fantasy-arena/privacy.html`, `/fantasy-arena/delete-data.html` | 판타지 아레나 (Fantasy Arena) |
 | `/privacy.html` | 예전 주소 유지용(먹물 탐정의 숨은그림찾기 (Mukmul the Black Cat: Hidden Objects) 방침과 같은 내용) |
+
+## 개인정보처리방침·삭제 안내 (한국어·영어)
+게임별 `privacy.html`, `delete-data.html` 과 루트 `privacy.html` 은 `tools/policy/build.py` 로 생성합니다. 게임별 사실(광고 형식, 인앱결제 여부, 로그인, 삭제 메뉴 경로 등)은 `tools/policy/games.py` 에서 고친 뒤 아래처럼 다시 생성하세요. 페이지를 직접 고치면 다음 생성 때 덮어써집니다.
+
+```bash
+python3 tools/policy/build.py .
+```
 
 ## 올리는 방법
 기존 사이트 저장소(`cat-detective-site`)의 루트에 이 폴더 안의 파일을 그대로 복사해 커밋·푸시합니다. `.nojekyll` 파일도 같이 복사하세요.
